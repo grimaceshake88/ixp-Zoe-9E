@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade 9 Semester 1</title>
+
+    <style>
+        body
+        {
+            background-image: linear-gradient(rgba(41, 10, 10, 0.6),rgba(75, 62, 10, 0.5)), url(images/TARDISSSSSSSSSSSSSSSSS.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+        h1{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 100px;
+            text-align: center;
+            color: white;
+            line-height: 15px;
+            
+        }
+
+
+        p{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 30px;
+            text-align: center;
+            color: white;
+            
+        }
+
+        .p{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 30px;
+            transition: 0.5s;
+            text-align: center;
+            color: white;
+            margin-top: 70px;
+            
+        }
+
+        .p:hover {
+            transform: scale(1.2); 
+        }
+        .header{
+            text-align: auto;
+            background-color: rgba(0, 0, 0, 0.8);
+            border-radius: 0%;
+            height: 150px;
+            width: 1507px;
+            margin-top: -40px;
+            margin-left: -20px;
+            border: none;
+        }
+        footer{
+            color: white;
+            text-align: center;
+            font-size: 16px;
+            position: fixed;
+            bottom: 0px;
+            right: 640px;
+        }
+
+        .box {
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 0%;
+            height: 150px;
+            width: 1000px;
+            border: none;
+            margin-left: 230px;
+        }
+
+        .ex{
+            text-align: left; 
+            margin-left: 20px; 
+            font-size: 50px;
+        }
+
+        .main{
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 0%;
+            border: none;
+            padding: 10px;
+            line-height: 40px;
+            width: 650px;
+        }
+
+        .img {
+            margin: auto;
+            display: block;
+        }
+
+        .user{
+            font-size: 30px;
+            color: black;
+            background-color: white;
+            width: 300px;
+            text-align: center;
+            margin-left: 35px;
+        }
+
+        .subbutton {
+            font-size: 30px;
+            color: white;
+            background-color: rgb(0, 36, 128);
+            width: 200px;
+            margin-left: 75px;
+            cursor: pointer;
+        }
+    </style>
+
+    <script>
+        function check(){
+            if (answer.value=="0.6"|| answer.value=="0.6 ohms"|| answer.value=="0.6 Ω"){
+                document.getElementById("answer").value = "Correct!"
+                answer.style.backgroundColor = "green"
+            }
+
+            else{
+                document.getElementById("answer").value = "lol WRONG!!!!!"
+                answer.style.backgroundColor = "red"
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="header" style="display: flex; justify-content: space-evenly;">
+        <br>
+        <p class="p"><a href="index.html" style="color: rgb(255, 255, 255); font-size: 25px; text-decoration: none;">Home</a></p>
+        <p class="p"><a href="g7.html" style="color: rgb(255, 255, 255); font-size: 25px; text-decoration: none;">Grade 7</a></p>
+        <p class="p"><a href="g8.html" style="color: rgb(255, 255, 255); font-size: 25px; text-decoration: none;">Grade 8</a></p>
+        <p class="p"><a href="g9selection.html" style="color: rgb(255, 255, 255); font-size: 25px; text-decoration: none;">Grade 9</a></p>
+        <p class="p"><a href="exercise.html" style="color: rgb(255, 255, 255); font-size: 25px; text-decoration: none;">Exercises</a>
+    </div>
+<div class="box">
+    <h1>Dynamic Electricity</h1>
+    <p>"Let there be light." - Genisis 1:3</p>
+</div>
+    <br>
+    <br>
+    <br>
+    <div class="main" style="width: auto;">
+        <h1 class="ex" style="text-align: center;">What is Dynamic Electricity?</h1>
+        <p class="ex" style="font-size: 30px; text-align: center;">Dynamic electricity is the flow of electric charges through a conductor. These flows of electric charges are called current (I).</p>
+        </div>
+<br>
+<br>
+<div class="main" style="height: 830px;">
+    <h1 class="ex">Ohms Law:</h1>
+    <p class="ex" style="font-size: 25px;">It explains the how relationship between the current that flows through most conductors is directionally proportional to the voltage (V) applied. It’s seen as a cause-and-effect relationship as the voltage is the cause and the current is the relationship. 
+        <br><br>If voltage drives current, resistance (R/ohms/Ω) impedes it. It opposes the flow of current in the electrical circuit. When the resistance doubles, the current is cut in half.
+        <br><br>Combining all of these relationships gives us the following formula;
+        </p>
+    <p style="float:left; font-size: 25px;" class="ex">
+        Formula:
+        <br> Current = Voltage/Resistance
+        <br> Resistance = Voltage/Current 
+        <br> Voltage = Current x Resistance
+        <br><br><img src="images/0109446089.jpeg" style="height: 250px; width: 250px; float: right; margin-right: -300px; margin-top: -250px;" class="img">
+    </p>
+</div>
+<div class="main" style="height: 1500px; float: right; margin-top: -850px;">
+    <h1 class="ex">Types of Circuit:</h1>
+    <p class="ex" style="font-size: 25px;">
+        1. Series Circuit
+        <br>Series circuits have no branches and only have one path the current can follow. 
+        <br>If multiple light bulbs are connected in a series circuit, then it share the same voltage and get increasingly dimmer as more lightbulbs are added. 
+        <br>If any one of the light bulbs breaks, then all of the bulbs in the circuit will not function as the circuit opens and no current will flow.
+        <br>
+        <br>When resistors are connected in a series circuit, then it adds up. 
+        <br>
+        <br>
+        <br>Rtotal = R1 + R2 + R3 + R4        
+        <br><br><img src="images/Screenshot 2025-02-07 212218.png" style="height: 150px; width: 305px; float: right; margin-right: 20px; margin-top: -140px;" class="img">
+        <br>
+        <br>
+        2. Parallel Circuit
+        <br>Parallel circuits, unlike series, have multiple branches and paths for the current to flow. 
+        <br>If lightbulbs are connected in parallel circuits, then they each have the same voltage and do not decrease if another is added. 
+        <br>If a bulb breaks, then the others will work as the current can flow through the other branches.
+        <br>
+        <br>When resistors are added to a parallel circuit, then it can be found through this formula;
+        <br>
+        <br>
+        <br><img src="images/Screenshot 2025-02-07 212227.png" class="img">
+        
+    </p>
+</div>
+<br>
+<div class="main" style="height: 1075px;">
+    <h1 class="ex">Movement of Charge:</h1>
+    <p class="ex" style="font-size: 25px;">When present in an electric field, a positive charge will naturally move in the direction of the electric field. This is because the electric field will exert a force on the charge which is the same direction as the electric field.
+        <br><br><img src="images/Screenshot 2025-02-04 183606.png" style="height: 250px; width: 250px; float: left; margin-left: 150px;" class="img">
+        <br><br>
+        <br><br>
+        <br>
+        <br><br>Meanwhile, if a negative charge is placed in a magnetic field, 
+        <br>it will move in the opposite direction of the electric field. 
+        <br>This is because the electric field also exerts a force onto the negative charge which causes it to go the opposite of the electric field.
+        <br><br><img src="images/Screenshot 2025-02-04 183635.png" style="height: 250px; width: 250px; float: left; margin-left: 150px;" class="img">
+    </p>
+</div>
+<br>
+<div class="main" style="height: 980px; float: right; margin-top: -435px;">
+    <h1 class="ex">Kirchoff's Laws:</h1>
+    <p class="ex" style="font-size: 25px;">
+        1. First Law
+        <br>The sum of currents entering the junction will always equal the sum of currents leaving the junction. 
+        <br>
+        <br><img src="images/Screenshot 2025-02-04 184224.png" style="height: 250px; width: 350px; float: left; margin-left: 140px;" class="img">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        2. Second Law
+        <br>The total electromotive force (e.m.f) in a closed circuit is equal to the sum of potential differences in the circuit.
+        <br>
+        <br><img src="images/Screenshot 2025-02-04 184335.png" style="float: left; margin-left: 100px;" class="img">
+        <br>
+        <br>
+    </p>
+</div>
+<div class="main" style="float: left; margin-top: 0px;">
+    <h1 class="ex">LETS TRY!</h1>
+    <p class="ex" style="font-size: 30px;">A 6V battery connects to a resistor, after the current goes through the resistor, it ends up as 10 A.</p>
+    <p class="ex" style="font-size: 30px;">Calculate how much the resistor is!</p>
+    <input type="text" id="answer" size="30" class="user" value="..."><button class="subbutton" onclick="check()">Submit</button>
+</div>
+
+<div class="main" style="float: left; margin-top: 25px;">
+    <h1 class="ex">Want to try more?</h1>
+    <p class="ex" style="font-size: 30px;">Press <a style="color: aliceblue;" href="exercise.html">here</a> to see more exercises!</p>
+    <img src="images/tennant.gif" style="width: 150px; height: 150px; float: right; margin-top: -150px; margin-right: 30px;">
+</div>
+</body>
+<footer>Abelle, Zoe, Carissa, Adelina 9E :3</footer>
+</html>

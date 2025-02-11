@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade 8</title>
+
+    <style>
+        body
+        {
+            background-image: linear-gradient(rgba(41, 10, 10, 0.6),rgba(75, 62, 10, 0.5)), url(images/maxresdefault.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+        h1{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 100px;
+            text-align: center;
+            color: white;
+            line-height: 15px;
+            
+        }
+
+
+        p{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 30px;
+            text-align: center;
+            color: white;
+            
+        }
+
+        .p{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 30px;
+            transition: 0.5s;
+            text-align: center;
+            color: white;
+            margin-top: 70px;
+            
+        }
+
+        .p:hover {
+            transform: scale(1.2); 
+        }
+        .header{
+            text-align: auto;
+            background-color: rgba(0, 0, 0, 0.8);
+            border-radius: 0%;
+            height: 150px;
+            width: 1507px;
+            margin-top: -40px;
+            margin-left: -20px;
+            border: none;
+        }
+        footer{
+            color: white;
+            text-align: center;
+            font-size: 16px;
+            position: fixed;
+            bottom: 0px;
+            right: 640px;
+        }
+
+        .box {
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 0%;
+            height: 150px;
+            width: 1000px;
+            border: none;
+            margin-left: 230px;
+        }
+
+        .ex{
+            text-align: left; 
+            margin-left: 20px; 
+            font-size: 50px;
+        }
+
+        .main{
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 0%;
+            border: none;
+            padding: 10px;
+            line-height: 40px;
+            width: 650px;
+        }
+
+        .img {
+            margin: auto;
+            display: block;
+        }
+
+        .user{
+            font-size: 30px;
+            color: black;
+            background-color: white;
+            width: 300px;
+            text-align: center;
+            margin-left: 35px;
+        }
+
+        .subbutton {
+            font-size: 30px;
+            color: white;
+            background-color: rgb(219, 126, 20);
+            width: 200px;
+            margin-left: 75px;
+            cursor: pointer;
+        }
+    </style>
+
+    <script>
+        function check(){
+            if (answer.value=="24"){
+                document.getElementById("answer").value = "Correct!"
+                answer.style.backgroundColor = "green"
+            }
+            
+            else if(answer.value=="-24"){
+                alert("just flip it man")
+            }
+            
+            else if(answer.value=="..."){
+                
+            }
+            else{
+                document.getElementById("answer").value = "lol WRONG!!!!!"
+                answer.style.backgroundColor = "red"
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="header" style="display: flex; justify-content: space-evenly;">
+        <br>
+        <p class="p"><a href="index.html" style="color: rgb(255, 255, 255); font-size: 25px; text-decoration: none;">Home</a></p>
+        <p class="p"><a href="g7.html" style="color: rgb(255, 255, 255); font-size: 25px; text-decoration: none;">Grade 7</a></p>
+        <p class="p"><a href="g8.html" style="color: rgb(255, 255, 255); font-size: 25px; text-decoration: none;">Grade 8</a></p>
+        <p class="p"><a href="g9selection.html" style="color: rgb(255, 255, 255); font-size: 25px; text-decoration: none;">Grade 9</a></p>
+        <p class="p"><a href="exercise.html" style="color: rgb(255, 255, 255); font-size: 25px; text-decoration: none;">Exercises</a>
+    </div>
+<div class="box">
+    <h1>Matter and Atoms</h1>
+    <p>"Lose an atom? Gotta keep an ion it."</p>
+</div>
+    <br>
+    <br>
+    <br>
+    <div class="main" style="width: auto;">
+    <h1 class="ex" style="text-align: center;">States of Matter:</h1>
+    <p class="ex" style="font-size: 30px;">Matter, made out of molecules and atoms, can be in distinct forms. There are 3 (excluding plasma) which are; solid, liquid and gas.</p>
+    </div>
+<br>
+<div class="main" style="width:530px; margin-left: 100px; height: 775px;">
+    <h1 class="ex" style="text-align: center;">Solid:</h1>
+    <p style="font-size: 25px;" class="ex">
+        Characteristics:
+        <br>- Has a fixed volume and shape
+        <br>- Cannot be compressed
+        <br>- The particles are packed closely together
+        <br>- There are strong forces between the particles        
+        <br>- The particles can only vibrate and rotate about their fixed positions
+        <br>
+        <br>
+        <img src="images/states of matter - solid.jpg" style="margin-left: 120px; width: 250px; height: 300px; margin-top: 38px;">
+    </p>
+</div>
+<br>
+<div class="main" style="width:530px; float: right; margin-top: -815px; margin-right: 100px;">
+    <h1 class="ex" style="text-align: center;">Liquid:</h1>
+    <p style="font-size: 25px;" class="ex">
+        Characteristics:
+        <br>- Has a fixed volume but not a fixed shape
+        <br>- Can't be compressed easily
+        <br>- The particles are close but not orderly
+        <br>- There are strong forces between the particles but weaker than solid    
+        <br>- The particles can vibrate, move, and rotate throughout the liquid, colliding with each other
+        <br>
+        <br>
+        <img src="images/states of matter - liquid.jpg" style="margin-left: 120px; width: 250px; height: 300px;">
+    </p>
+</div>
+<div class="main" style="width: auto;">
+    <h1 class="ex" style="text-align: center;">Gas:</h1>
+    <p style="font-size: 25px;" class="ex">
+        Characteristics:
+        <br>- Doesn’t have a fixed volume and shape
+        <br>- Cannot be compressed 
+        <br>- The particles are very far apart from each other in a random motion
+        <br>- There are weak forces between the particles
+        <br>- The particles can move, vibrate, and rotate freely, with greater collision rate than liquid
+        <br>
+        <br>
+        <img src="images/states of matter - gas.jpg" style="margin-right: 120px; margin-top:-320px;width: 250px; height: 300px; float: right;">
+    </p>
+</div>
+<br>
+<br>
+<div class="main" style="width: auto; height: 625px;">
+    <h1 class="ex" style="text-align: center;">Elements, Compound, & Mixture</h1>
+    <br>
+    <img src="images/element, yada yada yada.jpg" style="width: 500px; margin-left: 460px;">
+    <p style="font-size: 25px;" class="ex">
+        <br><b>Element:</b>
+        <br> A substance that can’t be broken down 
+        <br>into another substance and only consists 
+        <br>of 1 kind of atom
+        <br>(Like Cl and O2)
+    </p>
+    <p style="font-size: 25px; float: right; margin-top: -265px; margin-right: 510px; text-align: center;" class="ex">
+        <br><b>Compound:</b>
+        <br>A substance made of 2 or more different 
+        <br>chemical elements combined in a fixed ratio
+        <br>(like H2O and CO2)
+    </p>
+    <p style="font-size: 25px; float: right; margin-top: -265px; margin-right:15px; text-align: right;" class="ex">
+        <br><b>Mixture:</b>
+        <br>A compound made of 2 or more chemical 
+        <br>components that are not chemically linked 
+        <br>and are blended in the form of solution, 
+        <br>suspension, or colloid
+        <br> (Like blood, milk, etc)
+    </p>
+</div>
+<br>
+<div class="main" style="width: auto; height: 680px;">
+    <h1 class="ex" style="text-align: center;">Solution, Colloid, Suspension</h1>
+    <br>
+    <img src="images/solution, colloid, i forgot.png" style="width: 500px; margin-left: 470px;">
+    <p style="font-size: 25px;" class="ex">
+        <br><b>Solution:</b>
+        <br>A homogeneous mixture of 1 or more 
+        <br>solutes dissolved in a solvent
+        <br>Size = < 1 nm
+        <br>(Like air, salt water)
+    </p>
+    <p style="font-size: 25px; float: right; margin-top: -265px; margin-right: 520px; text-align: center;" class="ex">
+        <br><b>Colloid:</b>
+        <br>A substance that consists of 
+        <br>particles slightly larger than atoms 
+        <br>or ordinary molecules, though still 
+        <br>too small to be seen by the naked eye.
+        <br>Size = 1 - 1000 nm
+        <br>(Like milk, butter)
+    </p>
+    <p style="font-size: 25px; float: left; margin-top: -340px; margin-left: 1050px; text-align: right;" class="ex">
+        <br><b>Suspension:</b>
+        <br>A heterogeneous mixture of a finely 
+        <br>distributed solid in a liquid, which 
+        <br>is not dissolved.
+        <br>Size = > 1000 nm
+        <br>(Like muddy water, paint)
+    </p>
+</div>
+<br>
+<div class="main" style="width: 650px; height: auto;">
+    <h1 class="ex" style="text-align: center;">Seperating Mixtures</h1>
+    <p style="font-size: 25px;" class="ex">
+        <br><b>1. Evaporation</b>
+        <br>A process of separation where we use heat to evaporate the liquid, thus leaving the solid back in its original state. Such as boiling a salt water solution, and having the water seperate the salt as it evaporates.
+        <br>
+        <br><b>2. Filtration</b>
+        <br>A process of separation where we use gravity or vacuum to let the water pass through the filter, thus leaving the solid separated from the liquid. Such as filtering sand from water.
+    </p>
+</div>
+<br>
+<div class="main" style="width:655px; float: right; margin-top: -585px; margin-right: 1px;">
+    <h1 class="ex" style="text-align: center; line-height: 45px;">Physical & Chemical Reactions</h1>
+    <p style="font-size: 25px;" class="ex">
+        <b>Physical Reaction:</b>
+        <br>Changes affecting the form of a chemical substance, such as it's shape and size but not its chemical composition. Examples are; melting wax, boiling water and freezing water.
+        <br>
+        <br><b>Chemical Reaction:</b>
+        <br>Changes affecting the chemical composition of a chemical substance, thus forming new substances. Examples are; burning wood, rusting, food digestion.
+    </p>
+</div>
+<div class="main" style="width: 650px; height: auto;">
+    <h1 class="ex" style="text-align: center;">Acid & Base</h1>
+    <p style="font-size: 25px;" class="ex">
+        <b>Acid:</b>
+        <br>Acid/Acidic is a sour molecule or ion that has a pH level of under 7. It can interact with certain items, such as a blue litmus paper, and turn it red (because it's the acid interacting/neutralizing the base). However, when interacting with a red litmus paper, it will not change it's colour.
+        <br>
+        <br><b>Base</b>
+        <br>Base/Alkaline is a aquaeous molecule that are usually bitter to taste and has a pH level of over 7. It can interact with certain items, such as red litmus paper, and turn it blue (becasuse it's the base interacting/neutralizing the acid). However, when interacting with a blue litmus paper, it will not change colour.
+        <br>
+    </p>
+</div>
+<br>
+<div class="main" style="width: 650px; height: auto;">
+    <h1 class="ex" style="text-align: center;">Periodic Table</h1>
+    <p style="font-size: 25px;" class="ex">
+        <img src="images/Periodic_Table.png" style="height: 350px; width: 500px; margin-left: 55px;">
+        <br>
+        <br>The horizantal row of the periodic table is called periods. While the vertical columns are called groups. We can use these both to figure out what element is it through locating it in the periodic table.
+        <br>For example, Copper (Cu) is located on period 4, group 11.
+    </p>
+</div>
+<br>
+<div class="main" style="width:655px; float: right; margin-top: -1414px; margin-right: 1px;">
+    <h1 class="ex" style="text-align: center;">Atoms</h1>
+    <p style="font-size: 25px;" class="ex">
+        <img src="images/Screenshot 2025-02-07 193457.png" style="margin-left: 160px;">
+        <br>
+        <br> Atoms are the basic particles of the chemical elements. It consists of <b>proton</b> (positive charge) and generally <b>neutrons</b> (neutral charge) inside the nucleus, and are surrounded by <b>electrons</b> (negative charge) on the electron orbits.      
+        <br>
+        <br><b>Atomic number</b> can be found by counting the total number of protons.
+        <br><b>Mass number</b> can be found by counting the total number of protons and neutrons.
+        <br><b>Atom charge</b> can be found by subtracting the total number of protons with the total number of electrons.  
+    </p>
+</div>
+<div class="main" style="width:655px; float: right; margin-top: -460px;">
+    <p style="font-size: 25px;" class="ex">
+        <h1 class="ex">LETS TRY!</h1>
+        <p class="ex" style="font-size: 30px;">An atom has 39 protons, 20 neutrons, and 15 electrons.</p>
+        <p class="ex" style="font-size: 30px;">Calculate the atom's charge!</p>
+        <input type="text" id="answer" size="30" class="user" value="..."><button class="subbutton" onclick="check()">Submit</button>
+    </p>
+</div>
+<div class="main" style="float: right; margin-top: -80px; width: 655px;">
+    <h1 class="ex">Want to try more?</h1>
+    <p class="ex" style="font-size: 30px;">Press <a style="color: aliceblue;" href="exercise.html">here</a> to see more exercises!</p>
+    <img src="images/eat-eating.gif" style="width: 150px; height: 150px; float: right; margin-top: -150px; margin-right: 30px;">
+</div>
+</body>
+<footer>Abelle, Zoe, Carissa, Adelina 9E :3</footer>
+</html>
